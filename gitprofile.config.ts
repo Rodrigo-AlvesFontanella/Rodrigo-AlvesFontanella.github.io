@@ -11,11 +11,7 @@ const CONFIG = {
   base: '/',
   projects: {
     github: {
-      // Turned off for now: the auto-pulled repos are older coursework/bootcamp
-      // exercises that don't match the BI positioning. Switch this to `true`
-      // with mode 'manual' once the 4 Power BI (.pbip) repos are pushed —
-      // list their full names in manual.projects below.
-      display: false,
+      display: true,
       header: 'GitHub Projects',
       mode: 'manual',
       automatic: {
@@ -27,12 +23,12 @@ const CONFIG = {
         },
       },
       manual: {
-        // Fill in once pushed, e.g.:
-        // 'Rodrigo-AlvesFontanella/finance-tracker-powerbi',
-        // 'Rodrigo-AlvesFontanella/ecommerce-marketing-powerbi',
-        // 'Rodrigo-AlvesFontanella/hr-analytics-rls-powerbi',
-        // 'Rodrigo-AlvesFontanella/agro-insight-powerbi',
-        projects: [],
+        projects: [
+          'Rodrigo-AlvesFontanella/finance-tracker-powerbi',
+          'Rodrigo-AlvesFontanella/ecommerce-marketing-powerbi',
+          'Rodrigo-AlvesFontanella/hr-analytics-rls-powerbi',
+          'Rodrigo-AlvesFontanella/agro-insight-powerbi',
+        ],
       },
     },
     external: {
