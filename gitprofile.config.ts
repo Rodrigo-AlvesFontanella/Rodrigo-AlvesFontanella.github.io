@@ -29,6 +29,7 @@ const CONFIG = {
           'Rodrigo-AlvesFontanella/hr-analytics-rls-powerbi',
           'Rodrigo-AlvesFontanella/agro-insight-powerbi',
           'Rodrigo-AlvesFontanella/saas-billing-warehouse-sql',
+          'Rodrigo-AlvesFontanella/excel-to-dax-migrator',
         ],
       },
     },
