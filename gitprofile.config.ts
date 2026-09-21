@@ -86,7 +86,7 @@ const CONFIG = {
     title: 'Rodrigo Fontanella — BI Analyst',
     description:
       'Freelance BI analyst — Power BI, SQL Server and Python automation.',
-    imageURL: '',
+    imageURL: 'https://rodrigo-alvesfontanella.github.io/og-image.png',
   },
   social: {
     linkedin: '',
