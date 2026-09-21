@@ -24,6 +24,7 @@ const CONFIG = {
       },
       manual: {
         projects: [
+          'Rodrigo-AlvesFontanella/finance-tracker-mare-powerbi',
           'Rodrigo-AlvesFontanella/finance-tracker-powerbi',
           'Rodrigo-AlvesFontanella/ecommerce-marketing-powerbi',
           'Rodrigo-AlvesFontanella/hr-analytics-rls-powerbi',
@@ -36,6 +37,13 @@ const CONFIG = {
     external: {
       header: 'Case Studies',
       projects: [
+        {
+          title: 'Finance Tracker — "maré" Edition',
+          description:
+            'Personal finance dashboard redesigned as a digital-bank style report: period calculation group with measures exempted via ISSELECTEDMEASURE, year-over-year DAX with dynamic titles, four report-page tooltips (including DAX-generated SVG icons), a conditional-format heatmap and a custom SVG background — generated from a Figma design.',
+          imageUrl: 'images/finance-mare.jpg',
+          link: 'https://github.com/Rodrigo-AlvesFontanella/finance-tracker-mare-powerbi',
+        },
         {
           title: 'Finance Tracker',
           description:
