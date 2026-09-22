@@ -68,7 +68,7 @@ const CONFIG = {
         {
           title: 'Agro Insight — Map & Forecast',
           description:
-            'Agribusiness dashboard mapping 162 fields across 76 farmers with ArcGIS Maps for Power BI, plus a native statistical Forecast projecting fertilizer demand from trend and seasonality.',
+            'Dashboard for a fictional agribusiness company: 162 fields across 76 farmers mapped with ArcGIS Maps for Power BI, plus a native statistical Forecast projecting fertilizer demand from trend and seasonality. Synthetic data.',
           imageUrl: 'images/agro.jpg',
           link: 'https://claude.ai/code/artifact/d8c46e72-b3f1-4045-975e-3662bba4a87d#agro',
         },
@@ -85,7 +85,7 @@ const CONFIG = {
   seo: {
     title: 'Rodrigo Fontanella — BI Analyst',
     description:
-      'Freelance BI analyst — Power BI, SQL Server and Python automation.',
+      'Freelance BI analyst building Power BI dashboards, SQL Server data warehouses and Python automations. Portfolio projects use synthetic data.',
     imageURL: 'https://rodrigo-alvesfontanella.github.io/og-image.png',
   },
   social: {
