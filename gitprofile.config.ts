@@ -49,35 +49,28 @@ const CONFIG = {
           description:
             'Personal finance dashboard with time-intelligence DAX (YTD, period-over-period) and a drill path from summary KPIs down to transaction-level detail, on a proper star-schema model.',
           imageUrl: 'images/finance.jpg',
-          link: 'https://claude.ai/code/artifact/d8c46e72-b3f1-4045-975e-3662bba4a87d#finance',
+          link: 'https://github.com/Rodrigo-AlvesFontanella/finance-tracker-powerbi',
         },
         {
           title: 'E-commerce Marketing — Channel & Customer Insights',
           description:
             '4-page report analyzing channel attribution, campaign ROI and customer segmentation for an e-commerce business — built to answer which channel is worth the next dollar of spend.',
           imageUrl: 'images/ecommerce.jpg',
-          link: 'https://claude.ai/code/artifact/d8c46e72-b3f1-4045-975e-3662bba4a87d#ecommerce',
+          link: 'https://github.com/Rodrigo-AlvesFontanella/ecommerce-marketing-powerbi',
         },
         {
           title: 'HR Analytics — Row-Level Security',
           description:
             'People analytics dashboard built around a real Row-Level Security implementation: 4 department-scoped roles enforced in the semantic model, plus an animated headcount vs. hiring-trend scatter.',
           imageUrl: 'images/hr.jpg',
-          link: 'https://claude.ai/code/artifact/d8c46e72-b3f1-4045-975e-3662bba4a87d#hr',
+          link: 'https://github.com/Rodrigo-AlvesFontanella/hr-analytics-rls-powerbi',
         },
         {
           title: 'Agro Insight — Map & Forecast',
           description:
             'Dashboard for a fictional agribusiness company: 162 fields across 76 farmers mapped with ArcGIS Maps for Power BI, plus a native statistical Forecast projecting fertilizer demand from trend and seasonality. Synthetic data.',
           imageUrl: 'images/agro.jpg',
-          link: 'https://claude.ai/code/artifact/d8c46e72-b3f1-4045-975e-3662bba4a87d#agro',
-        },
-        {
-          title: 'Clinic Scheduling Automation',
-          description:
-            "Python robot that logs into a clinic's scheduling and records portals, pulls new appointments and patient data, and emails a structured report out automatically — running in production for a real client.",
-          imageUrl: 'images/automation.jpg',
-          link: 'https://claude.ai/code/artifact/d8c46e72-b3f1-4045-975e-3662bba4a87d#automation',
+          link: 'https://github.com/Rodrigo-AlvesFontanella/agro-insight-powerbi',
         },
       ],
     },
