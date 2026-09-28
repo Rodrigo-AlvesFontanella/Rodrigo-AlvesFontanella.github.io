@@ -284,6 +284,18 @@ interface Blog {
   limit?: number;
 }
 
+interface Contributions {
+  /**
+   * Show the GitHub-style contribution graph
+   */
+  display?: boolean;
+
+  /**
+   * Section header
+   */
+  header?: string;
+}
+
 interface ThemeConfig {
   /**
    * Default theme
@@ -381,6 +393,11 @@ interface Config {
    * Blog config
    */
   blog?: Blog;
+
+  /**
+   * Contribution graph config
+   */
+  contributions?: Contributions;
 
   /**
    * Theme config

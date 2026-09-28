@@ -4,4 +4,5 @@ export interface Profile {
   bio?: string;
   location?: string;
   company?: string;
+  createdAt?: string;
 }

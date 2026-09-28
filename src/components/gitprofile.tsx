@@ -27,6 +27,7 @@ import ExternalProjectCard from './external-project-card';
 import BlogCard from './blog-card';
 import Footer from './footer';
 import PublicationCard from './publication-card';
+import ContributionGraph from './contribution-graph';
 
 /**
  * Formats the GitHub rate limit reset time for display.
@@ -169,6 +170,7 @@ const GitProfileContent = ({
         bio: data.bio || '',
         location: data.location || '',
         company: data.company || '',
+        createdAt: data.created_at || '',
       });
 
       if (!sanitizedConfig.projects.github.display) {
@@ -272,6 +274,14 @@ const GitProfileContent = ({
                       githubProjects={githubProjects}
                       loading={loading}
                       googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
+                    />
+                  )}
+                  {sanitizedConfig.contributions.display && (
+                    <ContributionGraph
+                      header={sanitizedConfig.contributions.header}
+                      username={sanitizedConfig.github.username}
+                      createdAt={profile?.createdAt}
+                      loading={loading}
                     />
                   )}
                   {sanitizedConfig.publications.length !== 0 && (

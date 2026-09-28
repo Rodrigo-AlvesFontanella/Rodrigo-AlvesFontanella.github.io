@@ -118,6 +118,10 @@ export const getSanitizedConfig = (
         limit: config?.blog?.limit || 5,
         display: !!config?.blog?.username && !!config?.blog?.source,
       },
+      contributions: {
+        display: config?.contributions?.display ?? false,
+        header: config?.contributions?.header || 'Contributions',
+      },
       themeConfig: {
         defaultTheme: config?.themeConfig?.defaultTheme || DEFAULT_THEMES[0],
         disableSwitch: config?.themeConfig?.disableSwitch || false,

@@ -75,6 +75,11 @@ const CONFIG = {
       ],
     },
   },
+  // GitHub-style contribution graph (needs no token).
+  contributions: {
+    display: true,
+    header: 'Contributions',
+  },
   seo: {
     title: 'Rodrigo Fontanella — BI Analyst',
     description:
