@@ -242,7 +242,7 @@ const ContributionGraph = ({
   );
 
   return (
-    <div className="card shadow-lg card-sm bg-base-100">
+    <div className="card shadow-md card-sm bg-base-100 mb-6">
       <div className="card-body">
         <div className="mx-3 mb-2">
           <h5 className="card-title">

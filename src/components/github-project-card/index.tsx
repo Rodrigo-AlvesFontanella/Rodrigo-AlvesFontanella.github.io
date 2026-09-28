@@ -1,4 +1,4 @@
-import { Fragment } from 'react';
+import { Fragment, ReactNode } from 'react';
 import { AiOutlineFork, AiOutlineStar, AiOutlineGithub } from 'react-icons/ai';
 import { MdInsertLink } from 'react-icons/md';
 import { ga, getLanguageColor, skeleton } from '../../utils';
@@ -10,12 +10,14 @@ const GithubProjectCard = ({
   loading,
   limit,
   googleAnalyticsId,
+  children,
 }: {
   header: string;
   githubProjects: GithubProject[];
   loading: boolean;
   limit: number;
   googleAnalyticsId?: string;
+  children?: ReactNode;
 }) => {
   if (!loading && githubProjects.length === 0) {
     return;
@@ -162,6 +164,8 @@ const GithubProjectCard = ({
                 </div>
               </div>
             </div>
+
+            {children}
 
             {/* Projects Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

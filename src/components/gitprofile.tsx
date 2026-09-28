@@ -274,15 +274,16 @@ const GitProfileContent = ({
                       githubProjects={githubProjects}
                       loading={loading}
                       googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
-                    />
-                  )}
-                  {sanitizedConfig.contributions.display && (
-                    <ContributionGraph
-                      header={sanitizedConfig.contributions.header}
-                      username={sanitizedConfig.github.username}
-                      createdAt={profile?.createdAt}
-                      loading={loading}
-                    />
+                    >
+                      {sanitizedConfig.contributions.display && (
+                        <ContributionGraph
+                          header={sanitizedConfig.contributions.header}
+                          username={sanitizedConfig.github.username}
+                          createdAt={profile?.createdAt}
+                          loading={loading}
+                        />
+                      )}
+                    </GithubProjectCard>
                   )}
                   {sanitizedConfig.publications.length !== 0 && (
                     <PublicationCard
